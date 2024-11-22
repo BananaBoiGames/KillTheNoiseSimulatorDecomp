@@ -1,0 +1,8 @@
+hspeed = ((-20 * movespeed) * global.timescale)
+vspeed = (0.5 * global.timescale)
+if instance_exists(obj_enemy)
+    movespeed = (obj_enemy.launchsp / 12)
+if (x <= 0)
+    move_wrap(1, 0, sprite_get_width(sprite_index))
+if (y <= 0 || y >= room_height)
+    move_wrap(0, 1, sprite_get_height(sprite_index))

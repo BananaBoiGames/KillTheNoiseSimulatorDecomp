@@ -1,0 +1,12 @@
+cam = view_camera[0]
+camera_w = camera_get_view_width(cam)
+camera_h = camera_get_view_height(cam)
+view_w_half = (camera_w / 2)
+view_h_half = (camera_h / 2)
+target = obj_player
+xTo = target.x
+yTo = target.y
+shake = 0
+shake_time = 0
+shake_mag = 0
+shake_fade = 0.25

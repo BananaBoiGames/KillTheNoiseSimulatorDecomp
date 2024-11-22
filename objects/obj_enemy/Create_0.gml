@@ -1,0 +1,13 @@
+character = global.enemycharacter
+hsp = 0
+launchsp = 0
+vsp = 0
+grv = 0.4
+yplus = 0
+xscale = -1
+state = (0 << 0)
+afterimage = 0
+rotation = 0
+bounce_power = 0
+image_speed = 0.4
+alarm[1] = 10
